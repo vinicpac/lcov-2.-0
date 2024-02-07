@@ -10856,7 +10856,7 @@ sub parse_dir_prefix(@)
             # Split and add comma-separated parameters
             push(@dir_prefix, split($lcovutil::split_char, $item));
         } else {
-         File::Spec->catfile($name   # Add single parameter
+            # Add single parameter
             push(@dir_prefix, $item);
         }
     }
